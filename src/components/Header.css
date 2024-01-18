@@ -1,0 +1,22 @@
+.Body {
+    padding-top: 150px; /* Adjust this value based on your header height */
+  }
+.Header {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.184);
+    border-radius: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: white; /* Adjust as needed */
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  .NavItems > ul{
+    list-style: none;
+    display: flex;
+  }
+  .NavItems>ul>li{
+    padding: 20px;
+    margin:20px;
+  } 
